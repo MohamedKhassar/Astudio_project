@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Neutra Text';
+  src: url('./assets/neutra-text-font/NeutraText-Book.otf');
+}
+body{
+  font-family: 'Neutra Text';
+  color: #322625;
+}
+
+.table tr th{
+    text-transform:uppercase ;
+    background: #c0e3e5;
+}
+
+.table ,th,td{
+  border: solid #ebebeb 3px;
+  padding: 16px;
+}
+.table td{
+  text-transform: capitalize;
+}
+
+.table tr:hover{
+    background: #ebebeb;
+}
+
+.table{
+  border-collapse: collapse;
+  width: max-content;
+}
+
+.container{
+  margin: 60px;
+}
+
+select{
+  background: none;
+  border: none;
+  text-transform: capitalize;
+  font-family: "Neutra Text";
+}
+
+.select{
+  display: flex;
+  column-gap: 25px;
+  align-items: center;
+  width: fit-content;
+}
+
+.select button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Neutra Text";
+  font-size: medium;
+}
+
+.search-input{
+  border: none;
+  border-bottom: solid #c0e3e5 .5px;
+  width: 100%;
+  transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  outline: none;
+  font-family: "Neutra Text";
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  column-gap:15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.col{
+  background-color:#d4d3d3; 
+  width: 2.5px;
+  height: 23px;
+  border: none;
+}
+
+.name{
+    transform: translate(-50px,30px);
+    transition: transform 1.5s ease;
+    -webkit-transition: transform 1.5s ease;
+    -moz-transition: transform 1.5s ease;
+    -ms-transition: transform 1.5s ease;
+    -o-transition: transform 1.5s ease;
+    -webkit-transform: translate(-50px,30px);
+    -moz-transform: translate(-50px,30px);
+    -ms-transform: translate(-50px,30px);
+    -o-transform: translate(-50px,30px);
+}
+
+.label{
+  cursor: pointer;
+}
+
+.pag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+  list-style-type: none;
+}
+
+.link{
+  text-decoration: none;
+  color: #322625;
+  font-weight: bold;
+  border: solid 1.5px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 5px;
+}
+.link{
+  text-decoration: none;
+  color: #322625;
+  font-weight: bold;
+  border: solid 1.5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px;
+  transition: all .5s;
+}
+.link:hover{
+  color: #ebebeb;
+  background-color: #322625;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+}
